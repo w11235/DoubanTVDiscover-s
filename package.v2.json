@@ -1,9 +1,9 @@
 {
   "DoubanTVDiscover": {
-    "name": "豆瓣剧集精选",
+    "name": "新剧放送",
     "description": "探索中直接显示豆瓣电视剧，固定首播时间排序，地区为华语和韩国，仅保留时长大于25分钟。",
     "labels": "探索,豆瓣,电视剧",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/icons/douban.png",
     "author": "anxian",
     "level": 1,
