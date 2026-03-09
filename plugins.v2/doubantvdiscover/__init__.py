@@ -258,7 +258,7 @@ class DoubanTVDiscover(_PluginBase):
 
         event_data: DiscoverSourceEventData = event.event_data
         source = schemas.DiscoverMediaSource(
-            name="豆瓣剧集精选",
+            name="新剧放送",
             mediaid_prefix=DISCOVER_MEDIA_PREFIX,
             api_path=f"plugin/DoubanTVDiscover/douban_tv_discover?apikey={settings.API_TOKEN}",
             filter_params={
