@@ -1,0 +1,16 @@
+{
+  "DoubanTVDiscover": {
+    "name": "豆瓣剧集精选",
+    "description": "探索中直接显示豆瓣电视剧，固定首播时间排序，地区为华语和韩国，仅保留时长大于25分钟。",
+    "labels": "探索,豆瓣,电视剧",
+    "version": "1.0.2",
+    "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/icons/douban.png",
+    "author": "anxian",
+    "level": 1,
+    "history": {
+      "v1.0.2": "调整为标准固定筛选参数形式，提升探索页前端兼容性",
+      "v1.0.1": "默认启用插件，并将探索源名称调整为豆瓣剧集精选，便于与内置源区分",
+      "v1.0.0": "新增独立豆瓣剧集探索插件，固定电视剧/首播时间/华语+韩国筛选，并过滤时长大于25分钟"
+    }
+  }
+}
