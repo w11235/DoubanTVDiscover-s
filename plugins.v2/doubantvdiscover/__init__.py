@@ -17,14 +17,14 @@ DOUBAN_AREAS = ["华语", "韩国"]
 MAX_FETCH_COUNT = 400
 MIN_RUNTIME = 25
 DISCOVER_MEDIA_PREFIX = "doubanselect"
-MIN_RETURN_COUNT = 60
+MIN_RETURN_COUNT = 100
 
 
 class DoubanTVDiscover(_PluginBase):
-    plugin_name = "豆瓣剧集精选"
+    plugin_name = "新剧放送"
     plugin_desc = "探索中直接显示豆瓣电视剧，固定首播时间排序，地区为华语和韩国，仅保留时长大于25分钟。"
     plugin_icon = "https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/icons/douban.png"
-    plugin_version = "1.0.5"
+    plugin_version = "1.0.6"
     plugin_author = "anxian"
     author_url = "https://github.com/jxxghp/MoviePilot-Plugins"
     plugin_config_prefix = "doubantvdiscover_"
